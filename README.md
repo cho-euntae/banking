@@ -6,6 +6,11 @@
 
 ### git config core.autocrlf true
 ### git config --global core.autocrlf true
+
+# root 디렉토리에 파일생성 ===> .gitattribute 
+# * text=auto
+# *.md text eol=lf
+
 # ==========================================
 
 ## npm run dev
@@ -13,3 +18,10 @@
 #### JavaScript Mastery
 # clone cording
 # https://www.youtube.com/watch?v=PuOVqP_cjkE&t=293s
+
+
+# git add .
+# git commit -m 'message'
+# git push origin main
+
+
