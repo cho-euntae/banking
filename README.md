@@ -32,3 +32,10 @@
 # git push origin main
 
 
+# =============================================
+# npm install query-string
+# npm install react-countup
+# npm install chart.js
+# npm install react-chartjs-2
+
+
