@@ -38,9 +38,11 @@
 # npm install chart.js
 # npm install react-chartjs-2
 
+# npx shadcn-ui@latest add sheet
 
 # ====================ing========================
 # 1. 53:06
 # 2. 1:04:36
+# 3. style이 안맞음. 1분부터 다시
 # ====================ing========================
 
