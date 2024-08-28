@@ -2,7 +2,7 @@
 <code>clone cording</code>
 # https://www.youtube.com/watch?v=PuOVqP_cjkE&t=293s
 
-library : `Reactjs code snippets`
+library : `Reactjs code snippets`<br>
 basic page create ===> `rsc`
 
 ___
@@ -22,9 +22,9 @@ ___
 >>> '\n' 으로 설정하기
 ---
 
-<code>git add .<br> 
-git commit -m 'message'<br> 
-git push origin main
+<code>git add .<br>
+ git commit -m 'message'<br> 
+ git push origin main
 </code>
 
 ***
@@ -38,8 +38,12 @@ npx shadcn-ui@latest add sheet
 -->
 *** 
 
+<!-- 
+`1.` 로 시작하면 <ol> 
+`-` 로 시작하면 <ul>
+-->
 ---
 1. 53:06
-2. 1:04:36
-3. style이 안맞음. 1시간부터 재시작
+1. 1:04:36
+1. style이 안맞음. 1시간부터 재시작
 ---
