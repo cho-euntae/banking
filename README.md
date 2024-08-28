@@ -2,16 +2,16 @@
 <code>clone cording</code>
 # https://www.youtube.com/watch?v=PuOVqP_cjkE&t=293s
 
-|library : `Reactjs code snippets`|
-|basic page create ===> `rsc`     |
+library : `Reactjs code snippets`
+basic page create ===> `rsc`
 
 ___
-git add . 이후에 아래 에러 나올경우 <br>
-warning: in the working copy of '.gitignore', LF will be replaced by CRLF the next time Git touches it
+`git add .` 이후에 아래 에러 나올경우 <br>
+`warning: in the working copy of '.gitignore', LF will be replaced by CRLF the next time Git touches it`
 
 ---
-> git config core.autocrlf true
-> git config --global core.autocrlf true
+> `git config core.autocrlf true`
+> `git config --global core.autocrlf true`
 
 >> root 디렉토리에 파일생성 ===> .gitattribute 
 >> * text=auto
@@ -22,8 +22,7 @@ warning: in the working copy of '.gitignore', LF will be replaced by CRLF the ne
 >>> '\n' 으로 설정하기
 ---
 
-<code>
-git add .<br> 
+<code>git add .<br> 
 git commit -m 'message'<br> 
 git push origin main
 </code>
@@ -40,7 +39,7 @@ npx shadcn-ui@latest add sheet
 *** 
 
 ---
-# 1. 53:06
-# 2. 1:04:36
-# 3. style이 안맞음. 1분부터 다시
+1. 53:06
+2. 1:04:36
+3. style이 안맞음. 1시간부터 재시작
 ---
