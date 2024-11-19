@@ -1,20 +1,21 @@
-import type { Metadata } from "next";
-import { Inter, IBM_Plex_Serif } from "next/font/google";
-import "./globals.css";
+import type { Metadata } from 'next';
+import { Inter, IBM_Plex_Serif } from 'next/font/google';
+import './globals.css';
+import { ThemeProvider } from '../util/ThemeContext';
 
-const inter = Inter({ subsets: ["latin"], variable: '--font-inter' });
+const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
 const ibmPlexSerif = IBM_Plex_Serif({
-  subsets: ['latin']
-  ,weight: ['400','700']
-  ,variable: '--font-ibm-plex-serif'
-})
+  subsets: ['latin'],
+  weight: ['400', '700'],
+  variable: '--font-ibm-plex-serif',
+});
 
 export const metadata: Metadata = {
-  title: "Create Next App",
-  description: "Horizon is a modern banking platform for everyone.",
+  title: 'Create Next App',
+  description: 'Horizon is a modern banking platform for everyone.',
   icons: {
-    icon: '/icons/logo.svg'
-  }
+    icon: '/icons/logo.svg',
+  },
 };
 
 export default function RootLayout({
@@ -23,8 +24,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={`${inter.variable} ${ibmPlexSerif.variable}`}>{children}</body>
+    <html lang='en'>
+      <body className={`${inter.variable} ${ibmPlexSerif.variable}`}>
+        <ThemeProvider>{children}</ThemeProvider>
+      </body>
     </html>
   );
 }

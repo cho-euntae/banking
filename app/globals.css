@@ -380,3 +380,36 @@
     @apply text-16 font-semibold text-black-2 max-xl:hidden;
   }
 }
+
+body.light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+body.dark {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.typing-area {
+  border: 1px solid;
+  padding: 10px;
+  width: 100%;
+  max-width: 600px;
+  height: 200px;
+  margin: 20px auto;
+  font-size: 16px;
+}
+
+body.light .typing-area {
+  border-color: #ccc;
+  background-color: #f9f9f9;
+}
+
+body.dark .typing-area {
+  border-color: #444;
+  background-color: #222;
+}
+body {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
